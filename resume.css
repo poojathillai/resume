@@ -1,0 +1,85 @@
+body{
+ font-family:'Eb Garamond',serif;
+ /*background-color:lightblue;*/
+ line-height:1.5;
+ font-size:1.2rem;
+ background-image:Url(background.jpg);
+}
+.navbar{
+    text-align:center;
+}
+ul{
+    list-style-type:none;   
+}
+ul li::before{
+    content:"🎲";
+    padding-right:2px;
+}
+.contac{
+  padding-left: 50px;
+  padding-right:25%;
+}
+.cont{ 
+  padding-right: 60px;
+}
+.fa,.fas,.fab,.far{
+    font-size:1.5rem;
+}
+.fa-envelope-open-text{
+  color:#c71585;
+}
+.fa-phone{
+  color:#191970;
+}
+/*para
+p{
+  padding-left:50px;
+  
+  }*/
+.space{
+  padding-left:50px;
+}
+
+table,tr{
+  border: 1px solid black;
+}
+td{
+  border:1px solid black;
+  text-align:center;
+}
+.mat{
+  width:1.5rem;
+  height:1.2rem;
+  border-radius:100%;
+  
+}
+.fa-windows{
+  color:blue;
+  mix-blend-mode: darken;
+}
+.fa-code{
+  color:#daa520;
+  
+}
+.fa-file-code,.fa-file-word{
+  color:#e11584;
+  mix-blend-mode: darken;
+}
+.fa-php{
+  color:green;
+}
+.fa-microsoft{
+  color:#800080;
+}
+.fa-clock{
+  color:#800000;
+}
+hr{
+    border-width:1px;
+}
+.sign{
+    /*text-align:right;*/
+    padding-left:75%;
+    padding-bottom:2px;
+    width:5%;
+}
